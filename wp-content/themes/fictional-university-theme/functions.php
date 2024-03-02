@@ -102,6 +102,7 @@ function universityMapKey($api) {
 }
 
 add_filter('acf/fields/google_map/api', 'universityMapKey');
+<<<<<<< HEAD
 
 
 function redirectSubscribersToFrontPage () {
@@ -143,3 +144,5 @@ add_filter('login_headertitle', 'ourLoginTitle');
 function ourLoginTitle () {
   return get_bloginfo('name');
 }
+=======
+>>>>>>> 576d49e491e9bc5447f7a6acb8f1aedbf2b2cc9f
